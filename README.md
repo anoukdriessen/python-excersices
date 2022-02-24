@@ -7,9 +7,9 @@ starting with beginner friendly exercises to get back in shape and challenging m
 
 ## Day 1
 - [A] -> day 1
-    *variables.py
-    */practice_projects/bandname_generator.py
+    - variables.py
+    - /practice_projects/bandname_generator.py
 - [A] -> day 2 
-    *data_types.py
-    *mathmatical.py
-    */practice_projects/tip_calculator.py
+    - data_types.py
+    - mathmatical.py
+    - /practice_projects/tip_calculator.py
