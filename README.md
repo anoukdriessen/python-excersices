@@ -16,3 +16,9 @@ starting with beginner friendly exercises to get back in shape and challenging m
 - [A] -> day 3
     - conditions_and_logic.py
     - /practice_projects/treasure_island.py
+- [A] -> day 4
+    - with_random.py    
+    - lists.py
+
+## Day 2
+- [A] -> continue day 4
