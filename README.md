@@ -6,5 +6,10 @@ starting with beginner friendly exercises to get back in shape and challenging m
 - A [100 days of python code by Dr. Angela Yu](https://www.udemy.com/course/100-days-of-code/)
 
 ## Day 1
-- A (day 1 + bandname_generator.py)
-- A (day 2 + )
+- [A] -> day 1
+    *variables.py
+    */practice_projects/bandname_generator.py
+- [A] -> day 2 
+    *data_types.py
+    *mathmatical.py
+    */practice_projects/tip_calculator.py
