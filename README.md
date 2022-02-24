@@ -13,3 +13,6 @@ starting with beginner friendly exercises to get back in shape and challenging m
     - data_types.py
     - mathmatical.py
     - /practice_projects/tip_calculator.py
+- [A] -> day 3
+    - conditions_and_logic.py
+    - /practice_projects/treasure_island.py
