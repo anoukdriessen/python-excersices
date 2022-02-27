@@ -4,8 +4,9 @@ starting with beginner friendly exercises to get back in shape and challenging m
 
 #### Resources:
 - [A] [100 days of python code by Dr. Angela Yu](https://www.udemy.com/course/100-days-of-code/)
+- [B] Bots with python
 
-## Day 1
+## Day 1 24/02
 - [A] -> day 1
     - variables.py
     - /practice_projects/bandname_generator.py
@@ -20,5 +21,6 @@ starting with beginner friendly exercises to get back in shape and challenging m
     - with_random.py    
     - lists.py
 
-## Day 2
-- [A] -> continue day 4
+## Day 2 27/02
+- [B] -> insta automation bot
+
