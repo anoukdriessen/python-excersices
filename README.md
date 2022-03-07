@@ -32,5 +32,10 @@ starting with beginner friendly exercises to get back in shape and challenging m
 ## Day 4 07/03
 added missing code from day 3 (rock paper scissors game)
 - [A] -> day 5
-    - loops.py
+    - loops.py (for)
     - /practice_projects/password_generator.py
+- [A] -> day 6
+    - loops.py (while)
+- [A] -> day 7
+    
+        
