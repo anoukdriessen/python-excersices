@@ -23,4 +23,5 @@ starting with beginner friendly exercises to get back in shape and challenging m
 
 ## Day 2 27/02
 - [B] -> insta automation bot
+- [A] -> virtual_gardening
 
