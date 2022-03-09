@@ -32,6 +32,16 @@ scissors = '''
 options = [rock, paper, scissors]
 print("Welcome to the Rock Paper Scissors Game")
 
+def getIcon(nr):
+    if nr == 0:
+        # rock
+        return rock
+    elif nr == 1:
+        # paper
+        return paper
+    elif nr == 2:
+        return scissors   
+
 def playRound(user_chose):
     print("3")
     time.sleep(0.7)
@@ -57,7 +67,7 @@ def play():
         while not valid_choice:
             user_chose = int(input("I choose: "))
             if user_chose < 3:
-                user_chose = True
+                valid_choice = True
             else:
                 print("Invalid choice: Type [0] for Rock, [1] for Paper, OR [2] for Scissors")
                 user_chose = False   
@@ -68,20 +78,46 @@ def play():
         pc_chose = random.randint(0, 2)
 
         # display result
-        print(f"user_chose {user_chose}")
-        print(f"pc_chose {pc_chose}")
+        # print(f"user_chose {user_chose}")
+        # print(f"pc_chose {pc_chose}")
 
-    # winning conditions
-    # Rock wins from Scissors
-    # Paper wins from Rock
-    # Scissors wins from Paper
+        # winning conditions
+        # Rock wins from Scissors
+        # Paper wins from Rock
+        # Scissors wins from Paper
+        print(f"YOU:\t{getIcon(user_chose)}\nPC:\t{getIcon(pc_chose)}")
 
-    if user_chose == pc_chose:
-        # game is a tie
-        print()
+        if user_chose == pc_chose:
+            # game is a tie
+            print('Game is a TIE, play again.')
+        elif user_chose == 0:
+            # player has chosen rock
+            if pc_chose == 2:
+                # pc chose scissors -> player wins
+                print('You WON')
+            else:
+                print('You LOST')
+        elif user_chose == 1:
+            # player has chosen paper
+            if pc_chose == 0:
+                # pc chose rock -> player wins
+                print('You WON')
+            else:
+                print('You LOST')
+        elif user_chose == 2:
+            # player has chosen scissors 
+            if pc_chose == 1:
+                # pc chose paper -> player wins
+                print('You WON')
+            else:
+                print('You LOST')  
 
+        print("Let's play again..")     
 
 t = Timer(5, play())
 t.start()
 
 t.cancel()
+
+
+     
