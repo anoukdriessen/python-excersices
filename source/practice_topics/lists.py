@@ -5,35 +5,27 @@ def lists_of_fruits():
     fruits = ["Apples", "Bananas", "Pears"]
     print(fruits[0])        # first item
     print(fruits[-1])       # last item
-
     # items in list
     print(len(fruits))
-
     # change an item in the list
     print("before", fruits)
     fruits[1] = "Oranges"
     print("after", fruits)
-
     # add item to end of the list
     print("items in list", len(fruits))
     fruits.append("Bananas")
     print("items in list (after append)", len(fruits))
-
     # add a bunch of items to the end of the list
     fruits.extend(["Lemons", "Mangos", "Carrots"])
     print(fruits)
-
     # remove the last item from the list
     fruits.pop()
     print(fruits)
-
     # nested lists
     # dirty dozen can be improved by storing the same type of data in its own list
     #dirty_dozen = ["Strawberries", "Spinash", "Kale", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears", "Tomatoes", "Celery", "Potatoes"]
-
     fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
     vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
-
     dirty_dozen = [fruits, vegetables]
     print(dirty_dozen)
     print(dirty_dozen[0])
@@ -62,4 +54,9 @@ def another_list():
         print(key)
         print(list_with_key_value[key])
 
-another_list()
+#another_list()
+#           0    1    2    3    4    5    6    7    8    9    10   11   12   
+slicing = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m"]
+
+print(slicing[2:5])     # c / d / e
+print(slicing[10:13])   # k / l / m
