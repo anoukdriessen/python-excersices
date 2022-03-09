@@ -56,4 +56,12 @@ added missing code from day 3 (rock paper scissors game)
 - [A] -> day 19    
     - my_turtle.py
 - [A] -> day 20
-    - /practice_projects/snake.py    
+    - /practice_projects/snake.py   
+
+## Day 6 09/03
+- [A] -> finish snake from day 5 (day 20)
+    - /practice_projects/snake (OOP)
+- [A] -> day 21    
+    - inheritance.py
+    - /practice_projects/snake finished 
+    - lists.py -> slicing
