@@ -14,15 +14,16 @@ pad_1 = Paddle(310, 0)
 # create a second paddle
 pad_2 = Paddle(-318, 0)
 
-screen.update()
-
 # handle movement
 screen.listen()
-# screen.onkey(pad_1.up, "w")
-# screen.onkey(pad_1.down, "s")
-# screen.onkey(pad_2.up, "Up")
-# screen.onkey(pad_2.down, "Down")
- 
+screen.onkey(pad_2.up, "w")
+screen.onkey(pad_2.down, "s")
+screen.onkey(pad_1.up, "Up")
+screen.onkey(pad_1.down, "Down")
+
+on = True
+while on:
+    screen.update()
 
 # create the ball
 

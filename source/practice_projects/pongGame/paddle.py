@@ -9,3 +9,16 @@ class Paddle(Turtle):
         self.penup()
         self.goto(x, y)
 
+    def up(self):
+        if self.ycor() + 20 < 160:
+            newY = self.ycor() + 20
+        else:
+            newY = self.ycor()
+        self.goto(self.xcor(), newY)
+    
+    def down(self):
+        if self.ycor() - 20 > -160:
+            newY = self.ycor() - 20
+        else:
+            newY = self.ycor()
+        self.goto(self.xcor(), newY)
