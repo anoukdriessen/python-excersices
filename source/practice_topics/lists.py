@@ -60,3 +60,13 @@ slicing = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m"]
 
 print(slicing[2:5])     # c / d / e
 print(slicing[10:13])   # k / l / m
+print(slicing[3:])      # from 3 "d" till end
+print(slicing[:13])     # from start untill 13 "m"
+
+slicing_2 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]
+print(slicing_2[::2])   # 1 - 3 - 5 - 7   ...
+print(slicing_2[::3])   # 1 - 4 - 7 - 10  ...
+print(slicing_2[::5])   # 1 - 6 - 11 - 16 ...
+print(slicing_2[::-1])  # revert
+
+
