@@ -1,4 +1,5 @@
 from turtle import Screen
+from paddle import Paddle
 
 # create the screen
 screen = Screen()
@@ -7,16 +8,21 @@ screen.bgcolor("black")
 screen.title("My amazing pong game")
 screen.tracer(0)
 
-# handle movements
-screen.listen()
-# screen.onkey("w")
-# screen.onkey("s")
-# screen.onkey("Up")
-# screen.onkey("Down")
- 
 # create and move a paddle
+pad_1 = Paddle(310, 0)
 
 # create a second paddle
+pad_2 = Paddle(-318, 0)
+
+screen.update()
+
+# handle movement
+screen.listen()
+# screen.onkey(pad_1.up, "w")
+# screen.onkey(pad_1.down, "s")
+# screen.onkey(pad_2.up, "Up")
+# screen.onkey(pad_2.down, "Down")
+ 
 
 # create the ball
 
