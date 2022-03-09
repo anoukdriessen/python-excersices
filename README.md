@@ -39,11 +39,21 @@ added missing code from day 3 (rock paper scissors game)
 - [A] -> day 7
     - /practice_projects/hangman.py
 - [A] -> day 8
-    - mathmatical.py
+    - mathmatical.py calculate paint needed
     - /practice_projects/ceasar-cipher.py   
 - [A] -> day 9
     - lists.py
     - /practice_projects/student_score_to_grade.py
     - /practice_projects/travel_log.py
-- [A] -> day 10
-    
+- [A] -> day 10 -> 16
+    - mathamatical.py calculate days in month
+    - /practice_projects/coffee_machine/... 
+
+## Day 5 08/03
+- [A] -> finish coffee_machine from day 4 (day 10)
+- [A] -> day 18 
+    - my_turtle.py
+- [A] -> day 19    
+    - my_turtle.py
+- [A] -> day 20
+    - /practice_projects/snake.py    
