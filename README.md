@@ -26,5 +26,24 @@ starting with beginner friendly exercises to get back in shape and challenging m
 
 ## Day 3 28/02
 - [A] -> finish day 4
+    - /practice_projects/rock_paper_scissors.py
 - [A] -> virtual_gardening
 
+## Day 4 07/03
+added missing code from day 3 (rock paper scissors game)
+- [A] -> day 5
+    - loops.py (for)
+    - /practice_projects/password_generator.py
+- [A] -> day 6
+    - loops.py (while)
+- [A] -> day 7
+    - /practice_projects/hangman.py
+- [A] -> day 8
+    - mathmatical.py
+    - /practice_projects/ceasar-cipher.py   
+- [A] -> day 9
+    - lists.py
+    - /practice_projects/student_score_to_grade.py
+    - /practice_projects/travel_log.py
+- [A] -> day 10
+    
