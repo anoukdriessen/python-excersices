@@ -1,5 +1,7 @@
 from turtle import Screen
 from paddle import Paddle
+from ball import Ball
+import time
 
 # create the screen
 screen = Screen()
@@ -21,13 +23,31 @@ screen.onkey(pad_2.down, "s")
 screen.onkey(pad_1.up, "Up")
 screen.onkey(pad_1.down, "Down")
 
+# create the ball
+ball = Ball()
+
 on = True
 while on:
+    time.sleep(0.1)
     screen.update()
+    # make the ball move constantly
+    ball.move()
 
-# create the ball
+    # detect collision with wall
+    if ball.ycor() > 145 or ball.ycor() < -145:
+        ball.bounceY()
 
-# make the ball move constantly
+    # detect collision with paddle
+    if (ball.distance(pad_1) < 50 and ball.xcor() > 290) or (ball.distance(pad_2) < 43 and ball.xcor() > -330):
+        ball.bounceX()   
+
+    # detect paddle missing ball
+    if ball.xcor() > 330:
+        ball.reset()
+    if ball.xcor() < -330:
+        ball.reset()
+
+
 
 # detect collicion with the wall -> bounce
 
