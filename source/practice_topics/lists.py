@@ -1,3 +1,5 @@
+import pandas as pd
+
 # Lists for storing related data together
 # Lists have a index to an item in the list, the first item always has index 0
 
@@ -55,18 +57,67 @@ def another_list():
         print(list_with_key_value[key])
 
 #another_list()
-#           0    1    2    3    4    5    6    7    8    9    10   11   12   
-slicing = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m"]
 
-print(slicing[2:5])     # c / d / e
-print(slicing[10:13])   # k / l / m
-print(slicing[3:])      # from 3 "d" till end
-print(slicing[:13])     # from start untill 13 "m"
+def withSlicing():
+    #           0    1    2    3    4    5    6    7    8    9    10   11   12   
+    slicing = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m"]
 
-slicing_2 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]
-print(slicing_2[::2])   # 1 - 3 - 5 - 7   ...
-print(slicing_2[::3])   # 1 - 4 - 7 - 10  ...
-print(slicing_2[::5])   # 1 - 6 - 11 - 16 ...
-print(slicing_2[::-1])  # revert
+    print(slicing[2:5])     # c / d / e
+    print(slicing[10:13])   # k / l / m
+    print(slicing[3:])      # from 3 "d" till end
+    print(slicing[:13])     # from start untill 13 "m"
 
+    slicing_2 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]
+    print(slicing_2[::2])   # 1 - 3 - 5 - 7   ...
+    print(slicing_2[::3])   # 1 - 4 - 7 - 10  ...
+    print(slicing_2[::5])   # 1 - 6 - 11 - 16 ...
+    print(slicing_2[::-1])  # revert
 
+# withSlicing()    
+
+def comprehension():
+    numbers = [0,1,2,3,4]
+    new_list = [number + 1 for number in numbers]
+    # print(new_list)
+
+    numbers += [5,6,7,8,9]
+    even = [number + 1 for number in numbers if (number + 1) % 2 == 0 ]
+    print(even)
+
+    name = "Anouk"
+    letters = [letter for letter in name]
+    print(letters)
+
+    numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+    squared_numbers = [(n*n) for n in numbers]
+    print(squared_numbers)
+
+    sentence = "What is the Airspeed Velocity of an Unladen Swallow?"
+    result = {word:len(word) for word in sentence.split()}
+    print(result)
+
+# comprehension()
+
+def studentAndScores():
+    dict = {
+        "students": ["Guus", "Zorro", "Ruby", "Bea"],
+        "score": [56, 76, 98, 100]
+    }
+    # loop trough dictionairies
+    # for (key, value) in dict.items():
+        # print(f"{key} -> {value}")
+
+    dataFrame = pd.DataFrame(dict)
+    # print(dataFrame)
+    
+    # loop trough a data frame
+    # for (key, value) in dataFrame.items():
+        # print(key)
+        # print(value)
+
+    for (index, row) in dataFrame.iterrows():
+        # print(index)
+        # print(row)    
+        print(f"{row.students} has score {row.score}")    
+
+studentAndScores()        
