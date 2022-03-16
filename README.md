@@ -81,3 +81,9 @@ added missing code from day 3 (rock paper scissors game)
     [relative vs absolute file paths](https://www.udemy.com/course/100-days-of-code/learn/lecture/20537660#content)
     - /practice_projects/mailMerge
 - [A] -> day 25
+    - files.py read from CSV (Comma Seperated Values)
+    downloaded csv ted talks from [Kaggle](https://www.kaggle.com/ashishjangra27/ted-talks/version/1)
+- [A] -> day 26
+    - lists.py list comprehension
+    - /practice_projects/nato_phonetic_alphabet_converter.py
+    
