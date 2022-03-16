@@ -1,6 +1,7 @@
 from turtle import Screen
 from paddle import Paddle
 from ball import Ball
+from scoreboard import Scoreboard
 import time
 
 # create the screen
@@ -26,9 +27,12 @@ screen.onkey(pad_1.down, "Down")
 # create the ball
 ball = Ball()
 
+# create the scoreboard
+board = Scoreboard()
+
 on = True
 while on:
-    time.sleep(0.1)
+    time.sleep(ball.speed)
     screen.update()
     # make the ball move constantly
     ball.move()
@@ -44,8 +48,12 @@ while on:
     # detect paddle missing ball
     if ball.xcor() > 330:
         ball.reset()
+        board.givePointToPlayer(player="p1")
+
     if ball.xcor() < -330:
         ball.reset()
+        board.givePointToPlayer(player="p2")
+
 
 
 
