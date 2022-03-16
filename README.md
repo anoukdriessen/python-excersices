@@ -60,8 +60,24 @@ added missing code from day 3 (rock paper scissors game)
 
 ## Day 6 09/03
 - [A] -> finish snake from day 5 (day 20)
-    - /practice_projects/snake (OOP)
+    - /practice_projects/snakeGame (OOP)
 - [A] -> day 21    
     - inheritance.py
-    - /practice_projects/snake finished 
+    - /practice_projects/snakeGame finished 
     - lists.py -> slicing
+- [A] -> day 22
+    - /practice_projects/pongGame
+
+## Day 7 14/03
+- [A] -> finish pong game from day 6 (day 22)
+
+## Day 8 16/03
+- [A] -> finish pong game from day 6 (day 22)
+- [A] -> day 23
+    -/practice_projects/turtleCrossingGame
+- [A] -> day 24
+    -/practice_projects/snakeGame
+    - files.py OPEN, READ, WRITE, CLOSE
+    [relative vs absolute file paths](https://www.udemy.com/course/100-days-of-code/learn/lecture/20537660#content)
+    - /practice_projects/mailMerge
+- [A] -> day 25
