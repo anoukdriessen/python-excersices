@@ -86,4 +86,5 @@ added missing code from day 3 (rock paper scissors game)
 - [A] -> day 26
     - lists.py list comprehension
     - /practice_projects/nato_phonetic_alphabet_converter.py
-    
+- [A] -> day 27
+    - with_tkinter.py
