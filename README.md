@@ -92,6 +92,5 @@ added missing code from day 3 (rock paper scissors game)
     - with_tkinter.py
 
 ## Day 9 25/03
-- [C] -> program to remind me of switching between standing and sitting at work
-    - /remind_me_to_switch/app.py
-    
+- [C] -> program to remind me of switching between standing and sitting at work including pomodoro timer for sessions based on time i have
+    - /remind_me_to_switch/main.py  version 1, pomodoro timer
