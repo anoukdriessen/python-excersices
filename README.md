@@ -6,6 +6,7 @@ beginner friendly exercises to get back in shape and challenging myself to inter
 #### Resources:
 - [A] [100 days of python code by Dr. Angela Yu](https://www.udemy.com/course/100-days-of-code/)
 - [B] Bots with python
+- [C] Personal Projects
 
 ## Day 1 24/02
 - [A] -> day 1
@@ -89,3 +90,8 @@ added missing code from day 3 (rock paper scissors game)
     - /practice_projects/nato_phonetic_alphabet_converter.py
 - [A] -> day 27
     - with_tkinter.py
+
+## Day 9 25/03
+- [C] -> program to remind me of switching between standing and sitting at work
+    - /remind_me_to_switch/app.py
+    

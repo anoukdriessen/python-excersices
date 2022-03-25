@@ -1,0 +1,7 @@
+FUNCTIONALITIES
+user opens screen
+computer reads in data (if data is there)
+user total time -> computer calculates how many sessions / time is recomended 
+user agrees or changes generated data and sets if user wants to start sitting / standing -> computer sets data to session
+user press start -> computer shows stop button / shows user how much time left in this session / how much sessions left / how much time until longer break / show if user is sitting or standing
+user stops / finishes -> computer saves data to file and shows last 7 days
