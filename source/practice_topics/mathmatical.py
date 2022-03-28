@@ -158,3 +158,30 @@ year = int(input("Enter a year: "))
 month = int(input("Enter a month: "))
 days = days_in_month(year, month)
 print(days)
+
+print("********************************************************************")
+
+# with *args / **kwargs
+
+# add function with *args
+def add(*args):
+  # args is a tuple
+  sum = 0
+  for n in args:
+    sum += n
+  print(sum)  
+
+add(1,1)
+add(3, 5, 6, 8, 7, 1)  
+
+def calculate_kwargs(n, **kwargs):
+    print(type(kwargs)) # dictionary
+    print(kwargs)
+    for key, value in kwargs.items():
+      print(key)
+      print(value)
+    n += kwargs["add"]
+    n *= kwargs["multiply"]
+    print(f"solution: {n}")  
+
+calculate_kwargs(n, add=3, multiply=5)
