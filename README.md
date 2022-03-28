@@ -94,3 +94,18 @@ added missing code from day 3 (rock paper scissors game)
 ## Day 9 25/03
 - [C] -> program to remind me of switching between standing and sitting at work including pomodoro timer for sessions based on time i have
     - /remind_me_to_switch/main.py  version 1, pomodoro timer
+
+## Day 10 28/03
+- [A] -> continue day 27 (with tkinter file)
+    - /practice_projects/mile_to_km_converter.py
+- [C] -> remind me to switch
+    - added photo as window icon  
+    - added padding for styling
+- [A] -> day 28 / day 29 / day 30 / day 31 / day 32
+    - exception.py
+    - /practice_projects/password_manager/password_manager.py
+- [A] -> day 33
+    - make_requests.py work with API's
+- [A] -> day 34
+    - practice_projects/trivia_game.py
+           
