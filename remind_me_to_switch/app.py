@@ -1,8 +1,7 @@
-from struct import pack
 import time
 import threading
 import tkinter as tk
-from tkinter import ttk
+from tkinter import PhotoImage, ttk
 from datetime import date
 
 DEBUG = False
@@ -27,7 +26,8 @@ class App:
         self.root = tk.Tk()
         self.root.geometry(f"{WIDTH}x{HEIGHT}")
         self.root.title(TITLE)
-        # TODO set clock.png as icon
+        self.root.iconphoto(False, PhotoImage(file="./remind_me_to_switch/clock.png"))
+        self.root.config(padx=5, pady=5)
 
         # app variables
         self.create_default_app_variables()
@@ -80,7 +80,7 @@ class App:
         self.mainTab_label = ttk.Label(self.mainTab, text="Welkom bij RemindMe", font=FONT_M)
         self.mainTab_label.pack(pady=5)
         self.grid_layout = ttk.Frame(self.mainTab)
-        self.grid_layout.pack()
+        self.grid_layout.pack(padx=5, pady=5)
 
         self.total_time_label = ttk.Label(self.grid_layout, text="minuten", font=FONT_S)
         self.total_time_label.grid(row=0, column=1)
