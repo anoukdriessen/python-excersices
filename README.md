@@ -109,3 +109,7 @@ added missing code from day 3 (rock paper scissors game)
 - [A] -> day 34
     - practice_projects/trivia_game.py
            
+## Day 11 29/03
+- [A] -> day 35
+    - make_requests.py get weather data
+    
