@@ -76,6 +76,7 @@ def sunrises_and_sunsets():
     data = response.json()          # get data from request
 
     result = data['results']
+    print(result)
 
     sunrise_is_at = convert(result["sunrise"])
     sunset_is_at = convert(result["sunset"])
